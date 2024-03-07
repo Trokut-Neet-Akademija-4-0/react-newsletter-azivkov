@@ -17,10 +17,11 @@ function Newsletter(){
 
   function handleEmailSubmission() {
     console.log("Email to be saved: ", currentEmail);
-    if(currentEmail == '') {
+    const newEmail = currentEmail;
+    if(newEmail == '') {
       setValidationMessage("The field is left empty")
     }
-    else if (!regex.test(currentEmail)) {
+    else if (!regex.test(newEmail)) {
       setValidationMessage("The email address is invalid")
     }
     else {
