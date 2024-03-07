@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
 }
 .box-main {
     display: flex;
@@ -59,7 +59,7 @@ p {
     font-size: 16px;
     font-weight: 400;
 
-    font-family: 'Roboto', sans-sersif;
+    font-family: 'Roboto', sans-serif;
 }
 img {
     margin-bottom: -5px;
@@ -78,10 +78,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
 }
-.labels label:last-child{
-    /*text-align: right;*/
-    /*align-self: end;*/
-}
+
 label {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -146,8 +143,6 @@ span {
     .validations {
         text-align: right;
         margin: 0;
-    }
-    label {
     }
     .mobile {
         display: block;
